@@ -111,15 +111,14 @@
 # zstd=1.5.5.1=pypi_0
 
 
-# Kaggle đã cài sẵn torch, torchvision, numpy, transformers, tokenizers
-# → KHÔNG cài lại để tránh conflict.
-
 # Core FL framework
+plato
 pytorch-lightning
 
 # Huggingface ecosystem
 datasets
 huggingface-hub
+sentence-transformers
 
 # GenerativeFL dependencies
 aenum
@@ -132,9 +131,9 @@ fsspec
 tqdm
 pandas
 scipy
-
-# Optional but useful
-sentence-transformers
 lightly
 lightly-utils
 timm
+
+# Optional utilities
+regex
