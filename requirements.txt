@@ -167,7 +167,7 @@ idna>=3.10
 urllib3>=1.26.20
 
 # Federated Learning framework
-plato==0.2.1
+# plato==0.2.1
 
 
 # Optional / Extras
